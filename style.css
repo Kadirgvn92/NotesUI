@@ -3,8 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-
+#note {
+    width: 30rem;
 }
 
+#card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+image {
+    position: relative;
+    align-items: center;
+}

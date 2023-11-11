@@ -64,8 +64,8 @@ function displayNotes(notes) {
         const noteElement = `
 
             <div id="note" data-id="${note.id}" class="d-flex">
-                <div class="card d-flex justify-content-evenly m-2 m-2 text-center bg-warning" style="width: 18rem; height: 10vh;">
-                    <div class="card-body">
+                <div class="card d-flex justify-content-evenly m-2 text-center bg-warning" style="width: 25rem; height:15rem;">
+                    <div id="card" class="card-body">
                         <h5 class="card-title">${note.title}</h5>
                         <p class="card-text">${note.description}</p>
                     </div>
