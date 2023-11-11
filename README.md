@@ -2,6 +2,10 @@
 
 Merhaba bu proje Full Stack bir not alma uygulamasını içermektedir. SQL Server veritabanı, .NET Web API backend ve HTML, CSS, JavaScript ve Bootstrap ile oluşturulmuş bir frontend içerir.
 
+# Bu projeyi çalıştırmak için şu NuGet paketlerini yüklemeniz gerekir.
+- Entity Framework.Tools (.NET ile Aynı versiyon olmasına dikkat edin)
+- Entity Framework.SqlServer (.NET ile Aynı versiyon olmasına dikkat edin)
+
 Kullanılan Teknolojiler
 Backend:
 
